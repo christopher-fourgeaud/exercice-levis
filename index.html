@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- header -->
+	<header class="header">
+		<!-- on a changer pour un nav docn faut tout changer dans le css il est opas en accord -->
+		<div class="logo">
+			<input type="image" id="logo" src="http://lorempixel.com/100/50" alt="Logo Levis">
+		</div>
+		<div class="menu">
+			<a id="lien1" href="#">LINK1</a>
+			<a id="lien2" href="#">LINK2</a>
+		</div>
+	</header>
+
+	<!-- main -->
+	<div class="sous-menu">
+		<label for="number"> number</label>
+		<select name="number" id="nombre-image">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+		</select>
+		<label for="reverse">reverse</label><input type="checkbox" id="reverse">
+		<label for="shuffle">shuffle</label><input type="checkbox" id="shuffle">
+	</div>
+	<main class="container">
+		<div class="box-images">
+
+		<ul class="images">
+
+			<img src="http://lorempixel.com/output/technics-q-c-180-180-9.jpg" alt="image1" data-tech="1">
+			<img src="http://lorempixel.com/output/technics-q-c-180-180-7.jpg" alt="image2"  data-tech="2">
+			<img src="http://lorempixel.com/output/cats-q-c-180-180-5.jpg" alt="image3" data-tech="3">
+			<img src="http://lorempixel.com/output/technics-q-c-180-180-1.jpg" alt="image4" data-tech="4">
+			<img src="http://lorempixel.com/output/technics-q-c-180-180-2.jpg" alt="image5" data-tech="5">
+			<img src="http://lorempixel.com/output/technics-q-c-180-180-3.jpg" alt="image6" data-tech="6">
+			<img src="http://lorempixel.com/output/cats-q-c-180-180-3.jpg" alt="image7" data-tech="7">
+			<img src="http://lorempixel.com/output/cats-q-c-180-180-5.jpg" alt="image8" data-tech="8">
+			<img src="http://lorempixel.com/output/cats-q-c-180-180-6.jpg" alt="image9" data-tech="9">	
+		</ul>
+
+
+
+	</div>
+	<div class="texte">
+
+		<p id="texte-image"></p>
+
+	</div>
+
+</main>
+<!-- footer -->
+<footer class="footer">
+	<p>lighweight footer</p>
+</footer>
+<!-- script -->
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

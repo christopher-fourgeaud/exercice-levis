@@ -1,0 +1,23 @@
+{
+  "name": "exercice-levis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopher-fourgeaud/exercice-levis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopher-fourgeaud/exercice-levis/issues"
+  },
+  "homepage": "https://github.com/christopher-fourgeaud/exercice-levis#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
